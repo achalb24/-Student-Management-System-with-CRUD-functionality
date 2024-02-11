@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+
+.navContainer{
+    background-color: rgb(74,58,95);
+    height: 60px;
+    color: rgb(232, 233, 237);
+    display: flex;
+    font-size: large;
+}
+.logoblock{
+    height: inherit;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link ul{
+    display: inline-flex;
+    margin: 20px;
+}
+.nav-link a{
+    text-decoration: none;
+    /* NavLink mhnje a mhnun */
+}
+.nav-link span:hover {
+  text-decoration: underline;
+}
+.nav-link li{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 140px;
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: large;
+}
+
+
+/* ViewAll */
+#info{
+    margin-top: 20px;
+  
+}
+table{
+    border: 2px solid;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border: 2px solid;
+    height: 70px;
+}
+td{
+    border: 2px solid;
+    height: 50px;
+}
+
+/* view single student apply card centre */
+.view {
+    display: block;
+    width: 20%; /* Set a fixed width for the card */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 230px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.view button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.view button:hover {
+    background-color: #45a049;
+}
+
+/* ViewAll */
+.viewAll button{
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* home.jsx */
+
+.container {
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .container legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  .container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  
+/* error-page.css */
+
+div {
+    text-align: center;
+    /* Adjust this value to position the error message vertically */
+  }
+  
+h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #ff0000; /* Red color for the heading */
+  }
+h2{
+    margin: 20px;
+}  
+.error{
+    font-size: xx-large;
+    vertical-align: middle; /* Align the icon vertically with the text */
+    margin-left: 5px;
+}  
+p {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-top: 30px; /* Adjust the spacing between heading and message */
+  }
+  
+  /* Style for NavBar component */
+  /* Assuming NavBar has its own CSS or styles */
+
+
+/* update.css */
+
+form {
+    display: inline-block;
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  form legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+ form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+
+  
+  
+  
+  
+  

@@ -1,0 +1,82 @@
+/* RegistrationForm.css */
+
+/* Form container */
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #e5b4b48d;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+/* Form header */
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Form input fields */
+.form-input {
+    margin-bottom: 15px;
+}
+
+
+/* Gender and Hobbies */
+.gender-hobbies {
+    margin-bottom: 15px;
+
+}
+
+.gender-hobbies label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Submit button */
+button {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+}
+
+/* reg.css */
+
+/* Icon styles */
+.icons {
+    margin-right: 10px;
+    vertical-align: middle; /* Align icons vertically */
+    font-size: large;
+}
+
+/* Input field styles */
+.form-input {
+    margin-bottom: 15px;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
+}
+
+.form-input input[type="text"],
+.form-input input[type="email"],
+.form-input input[type="password"] {
+    flex: 1; /* Let the input take remaining space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
